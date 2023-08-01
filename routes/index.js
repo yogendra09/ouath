@@ -40,7 +40,7 @@ router.get('/login', function(req, res, next) {
   res.render('login');
 });
 
-router.get('https://ouath.onrender.com/oauth2/redirect/google', passport.authenticate('google', {
+router.get('/oauth2/redirect/google', passport.authenticate('google', {
   successRedirect: '/alluser',
   failureRedirect: '/login'
 }));
@@ -50,6 +50,6 @@ router.get('/alluser',async function(req,res,next){
   res.send("hry");
 })
 
-router.get('https://ouath.onrender.com/login/federated/google', passport.authenticate('google'));
+router.get('/login/federated/google', passport.authenticate('google'));
 
 module.exports = router;
