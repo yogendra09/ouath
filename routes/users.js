@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
  
- mongoose.connect("mongodb+srv://yogendra123:<yogendra123>@cluster0.jwfkfsz.mongodb.net/?retryWrites=true&w=majority");
+ mongoose.connect("mongodb+srv://yogendra123:nn0dANZFobqP0i5A@cluster0.qndz7nv.mongodb.net/?retryWrites=true&w=majority");
 
  const userSchema = mongoose.Schema({
   name:String,

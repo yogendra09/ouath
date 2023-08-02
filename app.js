@@ -25,7 +25,7 @@ app.use(expressSession({
   saveUninitialized: false,
   cookie:{maxAge:1000*60*60},
   store: mongoStore.create({
-    mongoUrl:'mongodb+srv://yogendra123:<yogendra123>@cluster0.jwfkfsz.mongodb.net/?retryWrites=true&w=majority',
+    mongoUrl:'mongodb+srv://yogendra123:nn0dANZFobqP0i5A@cluster0.qndz7nv.mongodb.net/?retryWrites=true&w=majority',
     autoRemove:'disabled'
   })
 }));
